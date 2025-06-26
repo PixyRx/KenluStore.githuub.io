@@ -1,0 +1,134 @@
+
+ body {
+  background-color: #b44cf0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.logo {
+  width: 60px;
+}
+.title-bar {
+  border: 3px solid white;
+  height: 10px;
+  width: 80%;
+  margin: 10px auto 30px auto;
+  border-radius: 20px;
+}
+.product-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-color: white;
+  border: 5px solid black;
+}
+.product-box {
+  display: inline-block;
+  margin: 15px;
+}
+.product-label {
+  margin-top: 5px;
+  color: black;
+  background-color: violet;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn-custom {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 5px 15px;
+}
+.similar-item {
+  display: inline-block;
+  margin: 15px;
+}
+.similar-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 5px solid black;
+  background-color: white;
+}
+.similar-item p {
+  background-color: violet;
+  font-weight: bold;
+}
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+}
+.cart-top-right {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.cart-icon {
+  width: 30px;
+}
+
+.form-control, .form-select {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-bottom: 10px;
+}
+.form-control::placeholder {
+  color: white;
+}
+.btn-compra {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 30px;
+  margin-top: 20px;
+}
+.carrito-box {
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+.total-box {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+.pago-iconos img {
+  width: 40px;
+  margin: 10px;
+}
+
+
+.buscador {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.buscador input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.buscador input::placeholder {
+  color: white;
+}
+
+.icono-lupa {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+  pointer-events: none;
+}
